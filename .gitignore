@@ -1,0 +1,68 @@
+# ==========================================
+# Build Artifacts & CMake Outputs
+# ==========================================
+build/
+bin/
+out/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Compiled binaries and objects
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+password-vault
+projekt
+
+# ==========================================
+# Local SQLite Database Files (Sensitive)
+# ==========================================
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+passwords.db
+
+# ==========================================
+# Sensitive Cryptographic Files
+# ==========================================
+*.hash
+*.salt
+
+# ==========================================
+# Dependencies Fetched Locally
+# ==========================================
+libs/clip-src/
+libs/clip-build/
+libs/clip-subbuild/
+libs/libsodium-cmake-src/
+libs/libsodium-cmake-build/
+libs/libsodium-cmake-subbuild/
+
+# ==========================================
+# IDE & Editor Files
+# ==========================================
+.vscode/*
+!.vscode/settings.json
+.idea/
+*.user
+*.suo
+*.sln.docstates
+
+# ==========================================
+# Operating System Files
+# ==========================================
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+
