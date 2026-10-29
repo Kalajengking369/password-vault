@@ -9,6 +9,9 @@ set(FETCHCONTENT_BASE_DIR ${CMAKE_SOURCE_DIR}/libs)
 # ===================
 # Fetch: clip
 # ===================
+set(CLIP_ENABLE_IMAGE OFF CACHE BOOL "" FORCE)
+set(CLIP_EXAMPLES OFF CACHE BOOL "" FORCE)
+set(CLIP_TESTS OFF CACHE BOOL "" FORCE)
 FetchContent_Declare(
         clip
         GIT_REPOSITORY https://github.com/dacap/clip.git

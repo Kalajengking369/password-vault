@@ -53,6 +53,10 @@ A lightweight, modern **C++20** command-line password manager designed with secu
 - **CMake**: Version 3.20 or newer
 - **C++ Compiler**: GCC 11+, Clang 13+, or MSVC supporting **C++20**
 - **Git**: Required for automatic dependency fetching via `FetchContent`
+- **Linux (X11 Clipboard)**: `libxcb1-dev` (or `libxcb-dev` on Debian/Ubuntu)
+  ```bash
+  sudo apt install libxcb1-dev
+  ```
 
 ---
 
